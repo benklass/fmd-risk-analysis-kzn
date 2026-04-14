@@ -116,3 +116,5 @@ Author
 Benjamin Klass
 Geospatial Data Analyst (GIS, Remote Sensing, Machine Learning)
 Israel
+
+Note: Geospatial datasets are derived from third-party sources and are subject to their respective licenses.
