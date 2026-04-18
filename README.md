@@ -1,4 +1,4 @@
-Foot-and-Mouth Disease (FMD) Risk Analysis in KwaZulu-Natal
+# Foot-and-Mouth Disease (FMD) Risk Analysis in KwaZulu-Natal
 
 ## Overview
 
