@@ -1,12 +1,12 @@
 Foot-and-Mouth Disease (FMD) Risk Analysis in KwaZulu-Natal
 
-Overview
+## Overview
 
 This project presents a geospatial and machine learning-based analysis of Foot-and-Mouth Disease (FMD) risk across KwaZulu-Natal, South Africa.
 
 The study integrates GIS-derived spatial variables with a Random Forest classification model to identify municipalities at elevated risk of FMD outbreaks.
 
-Objectives
+## Objectives
 
 Map the spatial distribution of FMD outbreaks
 
@@ -16,9 +16,9 @@ Develop a composite risk intensity index
 
 Apply machine learning to predict outbreak occurrence
 
-Methodology
+## Methodology
 
-Spatial Analysis
+## Spatial Analysis
 
 The following geospatial variables were derived:
 
@@ -41,7 +41,7 @@ D_PA,i* = normalized inverse distance to protected areas
 
 Higher values indicate greater relative outbreak risk.
 
-Machine Learning Model
+## Machine Learning Model
 
 A Random Forest classifier was used to predict outbreak presence.
 
@@ -57,7 +57,7 @@ Target:
 
 outbreak_present
 
-Project Structure
+## Project Structure
 
 ```
 fmd-risk-analysis-kzn/
@@ -90,7 +90,7 @@ fmd-risk-analysis-kzn/
 └── ⚖️ LICENSE
 ```
 
-GIS Data
+## GIS Data
 
 Primary dataset:
 
@@ -110,7 +110,7 @@ Derived spatial variables
 
 Risk intensity layer
 
-Outputs
+## Outputs
 
 Project outputs include:
 
@@ -120,7 +120,7 @@ Feature importance plots
 
 Spatial analysis outputs
 
-Usage
+## Usage
 
 1️⃣ Navigate to the Project Folder
 
@@ -138,7 +138,7 @@ python python/model.py
 
 qgis/fmd_analysis.qgz
 
-Data Sources
+## Data Sources
 
 South African FMD outbreak reports (2025)
 
@@ -146,7 +146,7 @@ OpenStreetMap data via Humanitarian Data Exchange (2026)
 
 Administrative boundary datasets derived from Humanitarian Data Exchange / OpenStreetMap
 
-Notes
+## Notes
 
 Spatial datasets derived from OpenStreetMap may differ slightly from official government datasets.
 
@@ -154,13 +154,13 @@ Geospatial datasets are derived from third-party sources and are subject to thei
 
 This project is intended for analytical and research purposes.
 
-License
+## License
 
 This project is licensed under the MIT License.
 
 Geospatial datasets remain subject to their respective third-party licenses.
 
-Author
+## Author
 
 Benjamin Klass
 
