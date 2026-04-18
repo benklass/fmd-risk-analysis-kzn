@@ -50,18 +50,29 @@ Project Structure
 fmd-risk-analysis-kzn/
 │
 ├── data/
-│ └── processed/
-│ └── kzn_fmd_layers.gpkg
+│   └── processed/
+│       └── kzn_fmd_layers.gpkg
+│
 ├── qgis/
-│ └── fmd_analysis.qgz
+│   └── fmd_analysis.qgz
+│
 ├── python/
-│ ├── model.py
-│ └── requirements.txt
+│   ├── model.py
+│   └── requirements.txt
+│
 ├── outputs/
-│ ├── maps/
-│ └── figures/
+│   ├── maps/
+│   │   ├── KZN_FMD_Cases.png
+│   │   └── KZN_Risk_Intensity.png
+│   │
+│   └── figures/
+│       └── feature_importance.png
+│
 ├── docs/
-│ └── report.pdf
+│   ├── report.pdf
+│   ├── project_poster.png
+│   └── project_poster.pdf
+│
 ├── README.md
 └── LICENSE
 
