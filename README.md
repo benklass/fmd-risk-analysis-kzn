@@ -63,8 +63,8 @@ outbreak_present
 fmd-risk-analysis-kzn/
 │
 ├── 📁 data/
-│   └── 📁 processed/
-│       └── 🗺️ kzn_fmd_layers.gpkg
+│   ├── 📄 sources.md
+│   └── 🗺️ kzn_fmd_layers.gpkg
 │
 ├── 📁 qgis/
 │   └── 🌍 fmd_analysis.qgz
