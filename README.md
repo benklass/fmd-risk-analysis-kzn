@@ -18,7 +18,7 @@ Apply machine learning to predict outbreak occurrence
 
 ## Methodology
 
-## Spatial Analysis
+### Spatial Analysis
 
 The following geospatial variables were derived:
 
@@ -41,7 +41,7 @@ D_PA,i* = normalized inverse distance to protected areas
 
 Higher values indicate greater relative outbreak risk.
 
-## Machine Learning Model
+### Machine Learning Model
 
 A Random Forest classifier was used to predict outbreak presence.
 
