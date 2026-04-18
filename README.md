@@ -82,6 +82,7 @@ Primary dataset:
 data/processed/kzn_fmd_layers.gpkg
 
 This GeoPackage includes:
+
 FMD cases
 Road network
 Protected areas
@@ -91,39 +92,59 @@ Risk intensity layer
 Outputs
 
 Project outputs include:
+
 Risk intensity maps
+
 Feature importance plots
+
 Spatial analysis outputs
 
 Usage
+
 1️⃣ Navigate to the Project Folder
+
 cd fmd-risk-analysis-kzn
+
 2️⃣ Install Dependencies
+
 pip install -r python/requirements.txt
 3️⃣ Run the Machine Learning Model
+
 python python/model.py
+
 4️⃣ Open the GIS Project
-Open the project in QGIS:
+
 qgis/fmd_analysis.qgz
 
 Data Sources
+
 South African FMD outbreak reports (2025)
+
 OpenStreetMap data via Humanitarian Data Exchange (2026)
+
 Administrative boundary datasets derived from Humanitarian Data Exchange / OpenStreetMap
 
 Notes
+
 Spatial datasets derived from OpenStreetMap may differ slightly from official government datasets.
+
 Geospatial datasets are derived from third-party sources and are subject to their respective licenses.
+
 This project is intended for analytical and research purposes.
 
 
 License
+
 This project is licensed under the MIT License.
+
 Geospatial datasets remain subject to their respective third-party licenses.
 
 Author
+
 Benjamin Klass
+
 Geospatial Data Analyst (GIS, Remote Sensing, Machine Learning)
+
 Israel
 
 
