@@ -1,4 +1,5 @@
 Foot-and-Mouth Disease (FMD) Risk Analysis in KwaZulu-Natal
+
 Overview
 
 This project presents a geospatial and machine learning-based analysis of Foot-and-Mouth Disease (FMD) risk across KwaZulu-Natal, South Africa.
@@ -6,18 +7,27 @@ This project presents a geospatial and machine learning-based analysis of Foot-a
 The study integrates GIS-derived spatial variables with a Random Forest classification model to identify municipalities at elevated risk of FMD outbreaks.
 
 Objectives
+
 Map the spatial distribution of FMD outbreaks
+
 Quantify key spatial risk factors
+
 Develop a composite risk intensity index
+
 Apply machine learning to predict outbreak occurrence
+
 Methodology
+
 Spatial Analysis
 
 The following geospatial variables were derived:
 
 Road density
+
 Distance to the Disease Management Area (DMA)
+
 Distance to protected areas at the wildlife–livestock interface
+
 Risk Index
 
 The FMD risk intensity index was defined as:
@@ -36,12 +46,17 @@ Machine Learning Model
 A Random Forest classifier was used to predict outbreak presence.
 
 Features:
+
 road_norm
+
 dma_norm
+
 protected_area_norm
 
 Target:
+
 outbreak_present
+
 Project Structure
 
 ```
@@ -84,11 +99,17 @@ data/processed/kzn_fmd_layers.gpkg
 This GeoPackage includes:
 
 FMD cases
+
 Road network
+
 Protected areas
+
 Municipal boundaries
+
 Derived spatial variables
+
 Risk intensity layer
+
 Outputs
 
 Project outputs include:
@@ -108,6 +129,7 @@ cd fmd-risk-analysis-kzn
 2️⃣ Install Dependencies
 
 pip install -r python/requirements.txt
+
 3️⃣ Run the Machine Learning Model
 
 python python/model.py
@@ -131,7 +153,6 @@ Spatial datasets derived from OpenStreetMap may differ slightly from official go
 Geospatial datasets are derived from third-party sources and are subject to their respective licenses.
 
 This project is intended for analytical and research purposes.
-
 
 License
 
