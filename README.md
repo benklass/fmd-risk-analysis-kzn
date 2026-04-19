@@ -98,10 +98,15 @@ data/kzn_fmd_layers.gpkg
 This GeoPackage includes:
 
 FMD cases
+
 Road network
+
 Protected areas
+
 Municipal boundaries
+
 Derived spatial variables
+
 Risk intensity layer
 
 ## Outputs
@@ -109,7 +114,9 @@ Risk intensity layer
 Project outputs include:
 
 Risk intensity maps
+
 Feature importance plots
+
 Spatial analysis outputs
 
 ## Usage
@@ -134,11 +141,16 @@ qgis/fmd_analysis.qgz
 
 ## Data Sources
 South African FMD outbreak reports (2025)
+
 OpenStreetMap data via Humanitarian Data Exchange (2026)
+
 Administrative boundary datasets derived from Humanitarian Data Exchange / OpenStreetMap
-Notes
+
+## Notes
 Spatial datasets derived from OpenStreetMap may differ slightly from official government datasets.
+
 Geospatial datasets are derived from third-party sources and are subject to their respective licenses.
+
 This project is intended for analytical and research purposes.
 
 ## License
